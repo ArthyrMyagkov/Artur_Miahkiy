@@ -150,8 +150,17 @@ h2{
 @media screen and (max-width: 720px) {
 
     .CV-header{
-        flex-direction: column;
-        gap:20px
+        flex-direction: row;
+        gap:15px;
+        font-size: 1rem;
+        line-height: 32px;
+    }
+    .CV-header h4{
+        font-size: 1.3rem;
+
+    }
+    .CV-header img{
+        width: 25%;
     }
     .About-me{
         width: 300px;
@@ -173,6 +182,9 @@ h2{
     .My-contacts{
         flex-direction: column;
         align-items: center;
+    }
+    .CV-header{
+        text-align: center;
     }
 
     

@@ -13,5 +13,6 @@ function removeClass(id_name) {
     element=document.getElementById(id_name);
     element.classList.remove("Displayable-section_none");
     console.log(element)
+    
     return element;
 }
