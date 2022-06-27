@@ -154,7 +154,9 @@ h2{
         gap:15px;
         font-size: 1rem;
         line-height: 32px;
-        background-size: cover;
+        background-size:cover;
+        width: 100%;
+        background-position: center;
     }
     .CV-header h4{
         font-size: 1.05rem;
